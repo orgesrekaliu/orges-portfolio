@@ -1,0 +1,10 @@
+/* Hero social icons pop effect */
+.social-icons a {
+  display: inline-flex;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2); /* Pop effect */
+  color: #1da1f2;        /* Optional: slightly brighter color */
+}

@@ -1,0 +1,23 @@
+.footer-custom {
+  min-height: 140px; /* taller footer */
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-custom .social-icons a {
+  color: #ffffff; /* normal white */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-custom .social-icons a:hover {
+  transform: scale(1.2); /* pop effect */
+  color: #f0f0f0; /* slightly brighter */
+}
+
+
+.footer-text {
+  color: #ffffff; /* white color */
+  font-size: 1.2rem; /* bigger size, you can increase to 1.1rem or 1.2rem */
+  font-weight: 500;
+}

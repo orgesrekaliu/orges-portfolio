@@ -1,0 +1,29 @@
+.nav-link-custom {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+/* underline */
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #3b82f6;
+  transition: width 0.3s ease;
+}
+
+/* hover underline */
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+/* active section underline (THIS IS THE IMPORTANT PART) */
+.nav-link-custom.active::after {
+  width: 100%;
+}
