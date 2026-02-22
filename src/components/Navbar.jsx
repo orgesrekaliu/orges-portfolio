@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
-import logo from '../assets/logoOR.png';
+import logo from '../assets/logo1.png';
 import '../style/Navbar.css';
 
 export default function Navbar() {
@@ -92,16 +92,7 @@ export default function Navbar() {
             if (isMobile) setIsOpen(false);
           }}
         >
-          <img
-            src={logo}
-            alt="Logo"
-            style={{
-              width: '40px',
-              height: '40px',
-              objectFit: 'cover',
-              borderRadius: '50%',
-            }}
-          />
+          <img src={logo} alt="OR Logo" className="nav-logo" />
         </a>
 
         {/* Links */}

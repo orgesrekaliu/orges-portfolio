@@ -27,3 +27,20 @@
 .nav-link-custom.active::after {
   width: 100%;
 }
+
+
+/* keep navbar stable */
+.navbar {
+  height: 72px;              /* fixed height */
+  display: flex;
+  align-items: center;       /* vertically center items */
+}
+
+/* logo sizing */
+.nav-logo {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;       /* no cropping */
+  display: block;     
+  border-radius: 50%;       /* removes weird inline spacing */
+}

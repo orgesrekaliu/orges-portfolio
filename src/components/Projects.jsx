@@ -18,7 +18,7 @@ export default function Projects() {
     description:
       'A professional business website for a metalworking company showcasing services, portfolio, and contact information to improve online presence and attract new clients.',
     technologies: ['React', 'Bootstrap', 'CSS', 'JavaScript'],
-    github: 'https://github.com/orgesrekaliu/metalworkardi',
+    github: "https://github.com/orgesrekaliu/metalworker-ardi",
       demo: 'https://metalworkardi.vercel.app',
 }
 ];
@@ -56,13 +56,17 @@ export default function Projects() {
                       <div className="d-flex gap-3 mt-4 flex-wrap">
                         <a
                           href={project.github}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="btn btn-outline-primary btn-sm d-flex align-items-center gap-2"
                         >
-                          <Github size={16} />
-                          {t('code')}
+                        <Github size={16} />
+                        {t("code")}
                         </a>
                         <a
                           href={project.demo}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="btn btn-primary btn-sm d-flex align-items-center gap-2"
                         >
                           <ExternalLink size={16} />
