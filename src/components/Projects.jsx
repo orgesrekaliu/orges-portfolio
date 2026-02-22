@@ -6,21 +6,19 @@ export default function Projects() {
 
   const projects = [
   {
-    title: 'Device Manager System',
-    description:
-      'A device management web application that allows users to track, organize, and manage technical equipment efficiently through a centralized dashboard.',
-    technologies: ['React', 'Bootstrap', 'JavaScript', 'DataBase'],
-    github: 'YOUR_GITHUB_LINK',
-    demo: 'YOUR_LIVE_DEMO_LINK',
+    title: t("deviceTitle"),
+    description: t("deviceDesc"),
+    technologies: ["React", "Bootstrap", "JavaScript", "Database"],
+    github: "YOUR_GITHUB_LINK",
+    demo: "YOUR_LIVE_DEMO_LINK",
   },
   {
-    title: 'Metalworker Ardi Business Website',
-    description:
-      'A professional business website for a metalworking company showcasing services, portfolio, and contact information to improve online presence and attract new clients.',
-    technologies: ['React', 'Bootstrap', 'CSS', 'JavaScript'],
+    title: t("ardiTitle"),
+    description: t("ardiDesc"),
+    technologies: ["React", "Bootstrap", "CSS", "JavaScript"],
     github: "https://github.com/orgesrekaliu/metalworker-ardi",
-      demo: 'https://metalworkardi.vercel.app',
-}
+    demo: "https://metalworkardi.vercel.app",
+  },
 ];
   return (
     <section id="projects" className="py-5" style={{ background: '#f8f9fa' }}>

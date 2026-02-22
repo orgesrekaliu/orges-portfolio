@@ -41,6 +41,14 @@ const translations = {
     allRightsReserved: 'All rights reserved.',
     introText: 'Passionate about building modern web applications with clean code and innovative user experiences. Specializing in React, Node.js, and modern web technologies.',
     HiImOrges: "Hi, I'm Orges",
+    deviceTitle: "Device Manager System",
+    deviceDesc:
+    "A device management web application that allows users to track, organize, and manage technical equipment efficiently through a centralized dashboard.",
+    ardiTitle: "Metalworker Ardi Business Website",
+    ardiDesc:
+    "A professional business website for a metalworking company showcasing services, portfolio, and contact information to improve online presence and attract new clients.",
+
+
   },
   de: {
     portfolio: 'Portfolio',
@@ -82,6 +90,14 @@ const translations = {
     allRightsReserved: 'Alle Rechte vorbehalten.',
     introText: 'Leidenschaft für die Erstellung moderner Webanwendungen mit sauberem Code und intuitiver Benutzerführung. Spezialisiert auf React, Node.js und moderne Webtechnologien.',
     HiImOrges: "Hallo, ich bin Orges",
+    deviceTitle: "Geräteverwaltungssystem",
+    deviceDesc:
+      "Eine Webanwendung zur Geräteverwaltung, mit der Benutzer technische Geräte effizient über ein zentrales Dashboard verfolgen, organisieren und verwalten können.",
+      ardiTitle: "Metalworker Ardi Geschäftswebsite",
+      ardiDesc:
+      "Eine professionelle Website für ein Metallverarbeitungsunternehmen, die Dienstleistungen, Portfolio und Kontaktinformationen präsentiert, um die Online-Präsenz zu verbessern und neue Kunden zu gewinnen.",
+
+
   },
   sq: {
     portfolio: 'Portfolio',
@@ -123,6 +139,12 @@ const translations = {
     allRightsReserved: 'Të gjitha të drejtat e rezervuara.',
     introText: 'I pasionuar për ndërtimin e aplikacioneve web moderne me kod të pastër dhe përvojë inovative për përdoruesit. Specializuar në React, Node.js dhe teknologjitë moderne të uebit.',
     HiImOrges: "Përshëndetje, unë jam Orgesi",
+    deviceTitle: "Sistemi i Menaxhimit të Pajisjeve",
+    deviceDesc:
+  "Një aplikacion për menaxhimin e pajisjeve që lejon përdoruesit të ndjekin, organizojnë dhe menaxhojnë pajisjet teknike në mënyrë efikase përmes një paneli qendror.",
+    ardiTitle: "Faqja e Biznesit Metalpunuesi Ardi",
+    ardiDesc:
+  "Një faqe profesionale për një kompani përpunimi metali që shfaq shërbimet, projektet dhe informacionin e kontaktit për të përmirësuar prezencën online dhe për të tërhequr klientë të rinj.",
   },
 };
 
